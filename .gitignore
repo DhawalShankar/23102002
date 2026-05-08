@@ -1,0 +1,26 @@
+# Dependency folders (Prevents uploading huge node_modules from any folder)
+**/node_modules/
+node_modules/
+
+# Environment files (Prevents leaking your API URLs or Keys)
+**/.env
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Build/Dist folders (If you ever use TypeScript or build tools)
+**/dist/
+**/build/
+
+# IDE settings
+.vscode/
+.idea/
